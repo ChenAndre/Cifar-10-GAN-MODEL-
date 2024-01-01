@@ -11,7 +11,7 @@ from torchsummary import summary
 
 print('Currently running PyTorch', torch.__version__)
 
-device = 'cpu'  # Use 'cpu' or 'cuda' if you have a GPU
+device = 'cuda'
 
 # CIFAR-10 specific parameters
 image_channels = 3  # CIFAR-10 images are RGB
